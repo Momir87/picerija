@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Andika');
+
+html,
+body {
+  background-color: #eee;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Andika', sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.odgovor {
+  height: 40vh;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h1, h2, h3 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+  word-spacing: 4px;
+}
+
+.navbar-default, .navbar-collapse, .navbar-fixed-top, .navbar-form {
+  background-color: #555;
+  border-color: #555;
+  border: 0;
+  height: 70px;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+}
+
+.navbar-collapse {
+  height: auto;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.navbar-right {
+  margin-right: 1%;
+  font-size: 110%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  padding-top: 25px;
+  color: #fff;
+}
+
+.navbar-brand {
+  margin-top: -15px;
+}
+
+.row {
+  margin: 0;
+}
+
+footer .bottom {
+  color: #fff;
+  background-color: #555;
+  padding: 23px 50px 13px;
+  text-align: center;
+
+}
+footer h3 {
+  font-size: 220%;
+  margin-bottom: 20px;
+}
+.text-center a {
+  color: inherit;
+}
+
+@media screen and (max-width: 576px) {
+ * {
+   font-size: 16px;
+ }
+ .dodatak {
+  width: 35%;
+  height: 25px;
+ }
+}
